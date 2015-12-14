@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3FD97F91C1F47CE00CFCE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD97F81C1F47CE00CFCE9A /* AppDelegate.swift */; };
+		C3FD97FB1C1F47CE00CFCE9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD97FA1C1F47CE00CFCE9A /* ViewController.swift */; };
+		C3FD97FE1C1F47CE00CFCE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FD97FC1C1F47CE00CFCE9A /* Main.storyboard */; };
+		C3FD98001C1F47CE00CFCE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FD97FF1C1F47CE00CFCE9A /* Assets.xcassets */; };
+		C3FD98031C1F47CE00CFCE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FD98011C1F47CE00CFCE9A /* LaunchScreen.storyboard */; };
+		C3FD980E1C1F47CE00CFCE9A /* RoasterOnTheGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD980D1C1F47CE00CFCE9A /* RoasterOnTheGoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3FD980A1C1F47CE00CFCE9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FD97ED1C1F47CE00CFCE9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FD97F41C1F47CE00CFCE9A;
+			remoteInfo = RoasterOnTheGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3FD97F51C1F47CE00CFCE9A /* RoasterOnTheGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoasterOnTheGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FD97F81C1F47CE00CFCE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3FD97FA1C1F47CE00CFCE9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3FD97FD1C1F47CE00CFCE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3FD97FF1C1F47CE00CFCE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3FD98021C1F47CE00CFCE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3FD98041C1F47CE00CFCE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FD98091C1F47CE00CFCE9A /* RoasterOnTheGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoasterOnTheGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FD980D1C1F47CE00CFCE9A /* RoasterOnTheGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoasterOnTheGoTests.swift; sourceTree = "<group>"; };
+		C3FD980F1C1F47CE00CFCE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3FD97F21C1F47CE00CFCE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FD98061C1F47CE00CFCE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3FD97EC1C1F47CE00CFCE9A = {
+			isa = PBXGroup;
+			children = (
+				C3FD97F71C1F47CE00CFCE9A /* RoasterOnTheGo */,
+				C3FD980C1C1F47CE00CFCE9A /* RoasterOnTheGoTests */,
+				C3FD97F61C1F47CE00CFCE9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3FD97F61C1F47CE00CFCE9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3FD97F51C1F47CE00CFCE9A /* RoasterOnTheGo.app */,
+				C3FD98091C1F47CE00CFCE9A /* RoasterOnTheGoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3FD97F71C1F47CE00CFCE9A /* RoasterOnTheGo */ = {
+			isa = PBXGroup;
+			children = (
+				C3FD97F81C1F47CE00CFCE9A /* AppDelegate.swift */,
+				C3FD97FA1C1F47CE00CFCE9A /* ViewController.swift */,
+				C3FD97FC1C1F47CE00CFCE9A /* Main.storyboard */,
+				C3FD97FF1C1F47CE00CFCE9A /* Assets.xcassets */,
+				C3FD98011C1F47CE00CFCE9A /* LaunchScreen.storyboard */,
+				C3FD98041C1F47CE00CFCE9A /* Info.plist */,
+			);
+			path = RoasterOnTheGo;
+			sourceTree = "<group>";
+		};
+		C3FD980C1C1F47CE00CFCE9A /* RoasterOnTheGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FD980D1C1F47CE00CFCE9A /* RoasterOnTheGoTests.swift */,
+				C3FD980F1C1F47CE00CFCE9A /* Info.plist */,
+			);
+			path = RoasterOnTheGoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3FD97F41C1F47CE00CFCE9A /* RoasterOnTheGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FD98121C1F47CE00CFCE9A /* Build configuration list for PBXNativeTarget "RoasterOnTheGo" */;
+			buildPhases = (
+				C3FD97F11C1F47CE00CFCE9A /* Sources */,
+				C3FD97F21C1F47CE00CFCE9A /* Frameworks */,
+				C3FD97F31C1F47CE00CFCE9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoasterOnTheGo;
+			productName = RoasterOnTheGo;
+			productReference = C3FD97F51C1F47CE00CFCE9A /* RoasterOnTheGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3FD98081C1F47CE00CFCE9A /* RoasterOnTheGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FD98151C1F47CE00CFCE9A /* Build configuration list for PBXNativeTarget "RoasterOnTheGoTests" */;
+			buildPhases = (
+				C3FD98051C1F47CE00CFCE9A /* Sources */,
+				C3FD98061C1F47CE00CFCE9A /* Frameworks */,
+				C3FD98071C1F47CE00CFCE9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FD980B1C1F47CE00CFCE9A /* PBXTargetDependency */,
+			);
+			name = RoasterOnTheGoTests;
+			productName = RoasterOnTheGoTests;
+			productReference = C3FD98091C1F47CE00CFCE9A /* RoasterOnTheGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3FD97ED1C1F47CE00CFCE9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrew Bancroft";
+				TargetAttributes = {
+					C3FD97F41C1F47CE00CFCE9A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C3FD98081C1F47CE00CFCE9A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C3FD97F41C1F47CE00CFCE9A;
+					};
+				};
+			};
+			buildConfigurationList = C3FD97F01C1F47CE00CFCE9A /* Build configuration list for PBXProject "RoasterOnTheGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3FD97EC1C1F47CE00CFCE9A;
+			productRefGroup = C3FD97F61C1F47CE00CFCE9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3FD97F41C1F47CE00CFCE9A /* RoasterOnTheGo */,
+				C3FD98081C1F47CE00CFCE9A /* RoasterOnTheGoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3FD97F31C1F47CE00CFCE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FD98031C1F47CE00CFCE9A /* LaunchScreen.storyboard in Resources */,
+				C3FD98001C1F47CE00CFCE9A /* Assets.xcassets in Resources */,
+				C3FD97FE1C1F47CE00CFCE9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FD98071C1F47CE00CFCE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3FD97F11C1F47CE00CFCE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FD97FB1C1F47CE00CFCE9A /* ViewController.swift in Sources */,
+				C3FD97F91C1F47CE00CFCE9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FD98051C1F47CE00CFCE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FD980E1C1F47CE00CFCE9A /* RoasterOnTheGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3FD980B1C1F47CE00CFCE9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FD97F41C1F47CE00CFCE9A /* RoasterOnTheGo */;
+			targetProxy = C3FD980A1C1F47CE00CFCE9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3FD97FC1C1F47CE00CFCE9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FD97FD1C1F47CE00CFCE9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3FD98011C1F47CE00CFCE9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FD98021C1F47CE00CFCE9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3FD98101C1F47CE00CFCE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3FD98111C1F47CE00CFCE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3FD98131C1F47CE00CFCE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoasterOnTheGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcbancroft.RoasterOnTheGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3FD98141C1F47CE00CFCE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoasterOnTheGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcbancroft.RoasterOnTheGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3FD98161C1F47CE00CFCE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoasterOnTheGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcbancroft.RoasterOnTheGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoasterOnTheGo.app/RoasterOnTheGo";
+			};
+			name = Debug;
+		};
+		C3FD98171C1F47CE00CFCE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoasterOnTheGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcbancroft.RoasterOnTheGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoasterOnTheGo.app/RoasterOnTheGo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3FD97F01C1F47CE00CFCE9A /* Build configuration list for PBXProject "RoasterOnTheGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FD98101C1F47CE00CFCE9A /* Debug */,
+				C3FD98111C1F47CE00CFCE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FD98121C1F47CE00CFCE9A /* Build configuration list for PBXNativeTarget "RoasterOnTheGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FD98131C1F47CE00CFCE9A /* Debug */,
+				C3FD98141C1F47CE00CFCE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3FD98151C1F47CE00CFCE9A /* Build configuration list for PBXNativeTarget "RoasterOnTheGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FD98161C1F47CE00CFCE9A /* Debug */,
+				C3FD98171C1F47CE00CFCE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3FD97ED1C1F47CE00CFCE9A /* Project object */;
+}
