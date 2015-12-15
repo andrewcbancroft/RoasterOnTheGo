@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C3FD97F91C1F47CE00CFCE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD97F81C1F47CE00CFCE9A /* AppDelegate.swift */; };
-		C3FD97FB1C1F47CE00CFCE9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD97FA1C1F47CE00CFCE9A /* ViewController.swift */; };
+		C3FD97FB1C1F47CE00CFCE9A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD97FA1C1F47CE00CFCE9A /* MenuViewController.swift */; };
 		C3FD97FE1C1F47CE00CFCE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FD97FC1C1F47CE00CFCE9A /* Main.storyboard */; };
 		C3FD98001C1F47CE00CFCE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FD97FF1C1F47CE00CFCE9A /* Assets.xcassets */; };
 		C3FD98031C1F47CE00CFCE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FD98011C1F47CE00CFCE9A /* LaunchScreen.storyboard */; };
 		C3FD980E1C1F47CE00CFCE9A /* RoasterOnTheGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD980D1C1F47CE00CFCE9A /* RoasterOnTheGoTests.swift */; };
+		C3FD98191C1F480300CFCE9A /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD98181C1F480300CFCE9A /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		C3FD97F51C1F47CE00CFCE9A /* RoasterOnTheGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoasterOnTheGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FD97F81C1F47CE00CFCE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3FD97FA1C1F47CE00CFCE9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3FD97FA1C1F47CE00CFCE9A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C3FD97FD1C1F47CE00CFCE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3FD97FF1C1F47CE00CFCE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3FD98021C1F47CE00CFCE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		C3FD98091C1F47CE00CFCE9A /* RoasterOnTheGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoasterOnTheGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FD980D1C1F47CE00CFCE9A /* RoasterOnTheGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoasterOnTheGoTests.swift; sourceTree = "<group>"; };
 		C3FD980F1C1F47CE00CFCE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FD98181C1F480300CFCE9A /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				C3FD97F81C1F47CE00CFCE9A /* AppDelegate.swift */,
-				C3FD97FA1C1F47CE00CFCE9A /* ViewController.swift */,
+				C3FD97FA1C1F47CE00CFCE9A /* MenuViewController.swift */,
+				C3FD98181C1F480300CFCE9A /* OrderViewController.swift */,
 				C3FD97FC1C1F47CE00CFCE9A /* Main.storyboard */,
 				C3FD97FF1C1F47CE00CFCE9A /* Assets.xcassets */,
 				C3FD98011C1F47CE00CFCE9A /* LaunchScreen.storyboard */,
@@ -197,8 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FD97FB1C1F47CE00CFCE9A /* ViewController.swift in Sources */,
+				C3FD97FB1C1F47CE00CFCE9A /* MenuViewController.swift in Sources */,
 				C3FD97F91C1F47CE00CFCE9A /* AppDelegate.swift in Sources */,
+				C3FD98191C1F480300CFCE9A /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
