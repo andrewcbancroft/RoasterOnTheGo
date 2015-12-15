@@ -26,6 +26,13 @@ class OrderViewController: UIViewController {
     }
     
     @IBAction func orderButtonTapped(sender: UIButton) {
+        let alert = UIAlertController(title: "Order Placed!", message: "Thank you for your order.\nWe'll ship it to you soon!", preferredStyle: .Alert)
+        let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: {
+            (_)in
+            self.performSegueWithIdentifier("unwindToMenu", sender: self)
+        })
         
+        alert.addAction(OKAction)
+        self.presentViewController(alert, animated: true, completion: nil)
     }
 }

@@ -59,6 +59,8 @@ class MenuViewController: UITableViewController {
         destinationVC.productName = products[key]![selectedIndexPath.row]
     }
     
+    @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
+    
     // MARK: Helpers
     func sectionHeaderName(forSection section: Int) -> String {
         return productSectionHeaders[section]

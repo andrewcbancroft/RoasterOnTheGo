@@ -78,9 +78,11 @@
                     </view>
                     <connections>
                         <outlet property="productNameLabel" destination="UHm-rH-Uci" id="k0g-YC-Xgt"/>
+                        <segue destination="EwH-7W-Idz" kind="unwind" identifier="unwindToMenu" unwindAction="unwindToMenu:" id="9tQ-Te-4Q5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kp9-6f-o4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="EwH-7W-Idz" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1732" y="388"/>
         </scene>
