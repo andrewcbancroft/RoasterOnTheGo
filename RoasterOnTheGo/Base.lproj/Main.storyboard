@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--Menu View Controller-->
+        <!--Menu-->
         <scene sceneID="Ljh-gg-mI0">
             <objects>
                 <tableViewController id="WTs-Xb-z36" customClass="MenuViewController" customModule="RoasterOnTheGo" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,13 +33,13 @@
                             <outlet property="delegate" destination="WTs-Xb-z36" id="j2s-Ai-hSg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="0rV-dl-WVw"/>
+                    <navigationItem key="navigationItem" title="Menu" id="0rV-dl-WVw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wX9-R7-St9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1048" y="388"/>
         </scene>
-        <!--Order View Controller-->
+        <!--Order-->
         <scene sceneID="rct-An-xio">
             <objects>
                 <viewController id="CiG-Le-Jnx" customClass="OrderViewController" customModule="RoasterOnTheGo" customModuleProvider="target" sceneMemberID="viewController">
@@ -76,6 +76,9 @@
                             <constraint firstItem="UHm-rH-Uci" firstAttribute="top" secondItem="cGz-KC-MCs" secondAttribute="bottom" constant="28" id="TNj-ww-D1V"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Order" id="kRk-HN-kKM"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="productNameLabel" destination="UHm-rH-Uci" id="k0g-YC-Xgt"/>
                         <segue destination="EwH-7W-Idz" kind="unwind" identifier="unwindToMenu" unwindAction="unwindToMenu:" id="9tQ-Te-4Q5"/>
