@@ -25,14 +25,14 @@ class OrderViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func orderButtonTapped(sender: UIButton) {
-        let alert = UIAlertController(title: "Order Placed!", message: "Thank you for your order.\nWe'll ship it to you soon!", preferredStyle: .Alert)
-        let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: {
+    @IBAction func orderButtonTapped(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Order Placed!", message: "Thank you for your order.\nWe'll ship it to you soon!", preferredStyle: .alert)
+        let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: {
             (_)in
-            self.performSegueWithIdentifier("unwindToMenu", sender: self)
+            self.performSegue(withIdentifier: "unwindToMenu", sender: self)
         })
         
         alert.addAction(OKAction)
-        self.presentViewController(alert, animated: true, completion: nil)
+        self.present(alert, animated: true, completion: nil)
     }
 }

@@ -19,24 +19,24 @@ class MenuViewController: UITableViewController {
     let productSectionHeaders = ["Africa", "Central America", "Indonesia", "South America"]
     
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return productSectionHeaders.count
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return productSectionHeaders[section]
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let key = sectionHeaderName(forSection: section);
         return products[key]!.count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("menuCell")!
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell")!
         
-        let key = sectionHeaderName(forSection: indexPath.section)
-        cell.textLabel?.text = products[key]![indexPath.row]
+        let key = sectionHeaderName(forSection: (indexPath as NSIndexPath).section)
+        cell.textLabel?.text = products[key]![(indexPath as NSIndexPath).row]
         return cell
     }
     
@@ -51,15 +51,15 @@ class MenuViewController: UITableViewController {
     }
     
     // MARK: - Navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let destinationVC = segue.destinationViewController as! OrderViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! OrderViewController
         let selectedIndexPath = tableView.indexPathForSelectedRow!
-        let key = sectionHeaderName(forSection: selectedIndexPath.section)
+        let key = sectionHeaderName(forSection: (selectedIndexPath as NSIndexPath).section)
         
-        destinationVC.productName = products[key]![selectedIndexPath.row]
+        destinationVC.productName = products[key]![(selectedIndexPath as NSIndexPath).row]
     }
     
-    @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
+    @IBAction func unwindToMenu(_ segue: UIStoryboardSegue) {}
     
     // MARK: Helpers
     func sectionHeaderName(forSection section: Int) -> String {
